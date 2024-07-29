@@ -755,8 +755,12 @@ input[type="radio"] + label:before {
   margin-bottom: 1rem;
 }
 
-.title h2 {
+.title * {
   margin: 0;
+}
+
+.title h4 {
+  color: #bbbbbb;
 }
 
 .sticker {
@@ -771,9 +775,14 @@ input[type="radio"] + label:before {
 .sticker.parket {
   background-image: url("../../images/parket-icon.png");
 }
-
 .sticker.bucket {
   background-image: url("../../images/bucket-hero-icon.png");
+}
+.sticker.coursehero {
+  background-image: url("../../images/coursehero-icon.png");
+}
+.sticker.codepath {
+  background-image: url("../../images/codepath-icon.png");
 }
 
 /* Image */
