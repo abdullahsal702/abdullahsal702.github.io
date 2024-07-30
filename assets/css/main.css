@@ -757,10 +757,23 @@ input[type="radio"] + label:before {
 
 .title * {
   margin: 0;
+  transition: all 0.2s ease-in;
 }
 
 .title h4 {
   color: #bbbbbb;
+}
+
+.title a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+
+.title a:hover {
+  margin-left: 10px;
 }
 
 .sticker {
