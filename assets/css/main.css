@@ -757,22 +757,16 @@ input[type="radio"] + label:before {
 
 .title * {
   margin: 0;
-  transition: all 0.2s ease-in;
 }
 
 .title h4 {
   color: #bbbbbb;
 }
 
-.title a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 1rem;
-  border-bottom: none;
+a .title {
+  transition: all 0.2s ease-in;
 }
-
-.title a:hover {
+a .title:hover {
   margin-left: 10px;
 }
 
