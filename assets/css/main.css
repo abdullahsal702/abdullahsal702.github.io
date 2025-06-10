@@ -782,6 +782,9 @@ a .title:hover {
 .sticker.parket {
   background-image: url("../../images/parket-icon.png");
 }
+.sticker.unimatch {
+  background-image: url("../../images/unimatch-icon.png");
+}
 .sticker.bucket {
   background-image: url("../../images/bucket-hero-icon.png");
 }
